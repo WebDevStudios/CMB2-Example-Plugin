@@ -9,7 +9,7 @@ if( ! function_exists( 'cmb2_example_plugin_post_media' ) ) {
 		$meta_boxes['cmb2_example_post_media'] = array(
 			'id'               => 'cmb2_example_post_media',
 			'title'            => __( 'Additional Media', 'cmb2-example-plugin' ),
-			'object_types'     => array( 'post' ), // These fields should be placed on the USER object.
+			'object_types'     => array( 'post' ), // These fields should be placed on the POST object.
 			'show_names'       => true,
 			'fields'           => array(
 				array(
